@@ -1,7 +1,7 @@
 import http from 'http'
 
 import crypto from 'crypto'
-import { Database } from '../database.js'
+import { Database } from './database.js'
 import { json } from './middlewares/json.js'
 
 const database = new Database()
